@@ -1,0 +1,65 @@
+MIT License
+
+Copyright (c) 2025 Chenlab & Linlab Research Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ACADEMIC USE AND CITATION REQUIREMENTS
+
+This software and associated analysis code are provided to support the research 
+described in:
+
+"Cellular basis of sex-role reversal: male pregnancy in seahorses"
+Published in Nature Ecology & Evolution (2025)
+
+If you use this software in academic research, please cite the above publication.
+
+DATA AVAILABILITY
+
+The datasets generated and analyzed during the current study are available from 
+the corresponding author upon reasonable request. Some datasets may be subject 
+to institutional review board restrictions.
+
+REPRODUCIBILITY STATEMENT
+
+This code is provided to ensure reproducibility of the computational analyses 
+described in the associated publication. The code includes:
+
+- Data preprocessing pipelines
+- Statistical analysis methods  
+- Visualization scripts
+- Cross-species comparative analysis workflows
+
+For questions regarding the implementation or to report issues, please contact 
+the corresponding author or submit an issue to the repository.
+
+DEPENDENCIES AND REQUIREMENTS
+
+This software relies on several third-party packages and tools. Please refer 
+to the README.md file for complete installation instructions and dependency 
+requirements. Users are responsible for ensuring compliance with the licenses 
+of all dependencies.
+
+DISCLAIMER
+
+The authors make no warranties about the completeness, reliability, or accuracy 
+of this software. The software is provided for research purposes only and should 
+not be used for clinical or diagnostic applications without appropriate validation.
