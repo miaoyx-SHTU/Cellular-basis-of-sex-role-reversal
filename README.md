@@ -14,8 +14,22 @@
 
 ## 📖 Research Overview
 
-This study systematically characterizes cell type diversity and gene regulatory networks during seahorse placental development using single-cell RNA sequencing (scRNA-seq) and single-cell assay for transposase-accessible chromatin sequencing (scATAC-seq). The research encompasses samples from multiple developmental timepoints and performs cross-species comparative analysis with human and mouse placental development to elucidate evolutionary conservation and divergence in placental biology.
+Seahorses and their relatives (syngnathids) are uniquely sex-role reversed. Their male 28
+pregnancy is facilitated by an evolutionary novel organ – the brood pouch that functions 29
+analogously to the mammalian uterus and placenta despite being originating from entirely 30
+different tissues. Here, through a set of comparative single-cell multiomics and genomics 31
+analyses, we investigated the transition from egg-laying to pregnancy during syngnathid 32
+evolution and compared the convergently evolved life-history of placental parental care with that 33
+in mammals. We show that a population of epithelial progenitors possess pouch-inducing 34
+potential and androgen, not female hormones as in other live-bearers, can trigger pouch ontogeny 35
+as evidenced by in vivo experiments. The functionality of the pouch is achieved through both 36
+recruiting cells (e.g., trophoblast-like cells) also found in mammalian uteri characterized by 37
+expressed orthologous genes, as well as co-opting specific cells for sticky eggs attached to 38
+specialized skin patches of males and expressed novel seahorse-specific genes (e.g., pastns, syn- 39
+lectins), which combined drove pouch diversity and complexity.
+
 ![pic](https://github.com/miaoyx-SHTU/Cellular-basis-of-sex-role-reversal/blob/main/Image/fig1.png)
+
 ## 🗂️ Project Structure
 
 ```
