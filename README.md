@@ -9,14 +9,13 @@
 ![Python](https://img.shields.io/badge/Language-Python-yellow)
 
 *Code of article：“Cellular basis of sex-role reversal: male pregnancy in seahorses” by Yali Liu, Han Jiang, Yuanxiang Miao, Luonan Chen** , Axel Meyer* , Qiang Lin* et al.
-![pic](https://github.com/miaoyx-SHTU/Cellular-basis-of-sex-role-reversal/blob/main/Image/fig1.png)
 
 </div>
 
 ## 📖 Research Overview
 
 This study systematically characterizes cell type diversity and gene regulatory networks during seahorse placental development using single-cell RNA sequencing (scRNA-seq) and single-cell assay for transposase-accessible chromatin sequencing (scATAC-seq). The research encompasses samples from multiple developmental timepoints and performs cross-species comparative analysis with human and mouse placental development to elucidate evolutionary conservation and divergence in placental biology.
-
+![pic](https://github.com/miaoyx-SHTU/Cellular-basis-of-sex-role-reversal/blob/main/Image/fig1.png)
 ## 🗂️ Project Structure
 
 ```
