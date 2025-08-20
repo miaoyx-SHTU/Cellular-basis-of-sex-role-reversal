@@ -8,7 +8,7 @@
 ![R](https://img.shields.io/badge/Language-R-blue)
 ![Python](https://img.shields.io/badge/Language-Python-yellow)
 
-*Code of article：“Cellular basis of sex-role reversal: male pregnancy in seahorses” by Yali Liu†,, Han Jiang†,, Yuanxiang Miao†,, Luonan Chen** , Axel Meyer* , Qiang Lin* et al.
+*Code of article：“Cellular basis of sex-role reversal: male pregnancy in seahorses” by Yali Liu†, Han Jiang†, Yuanxiang Miao†, Luonan Chen** , Axel Meyer* , Qiang Lin* et al.
 
 </div>
 
