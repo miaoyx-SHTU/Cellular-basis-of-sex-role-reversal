@@ -1,9 +1,4 @@
 # Cellular-basis-of-sex-role-reversal
-Code of article：“Cellular basis of sex-role reversal: male pregnancy in seahorses” by Yali Liu, Han Jiang, Yuanxiang Miao, Luonan Chen* , Axel Meyer* , Qiang Lin* et al.
-
-![pic](https://github.com/miaoyx-SHTU/Cellular-basis-of-sex-role-reversal/blob/main/Image/fig1.png)
-
-# Seahorse Placental Development Single-Cell Analysis
 
 <div align="center">
 
@@ -13,7 +8,8 @@ Code of article：“Cellular basis of sex-role reversal: male pregnancy in seah
 ![R](https://img.shields.io/badge/Language-R-blue)
 ![Python](https://img.shields.io/badge/Language-Python-yellow)
 
-*A comprehensive single-cell multi-omics study revealing the molecular mechanisms underlying seahorse placental development*
+*Code of article：“Cellular basis of sex-role reversal: male pregnancy in seahorses” by Yali Liu, Han Jiang, Yuanxiang Miao, Luonan Chen* , Axel Meyer* , Qiang Lin* et al.*
+![pic](https://github.com/miaoyx-SHTU/Cellular-basis-of-sex-role-reversal/blob/main/Image/fig1.png)
 
 </div>
 
