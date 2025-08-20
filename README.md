@@ -63,7 +63,6 @@ sh_code/
   - Seahorse-human placental cell type correspondence analysis
   - Generation of Sankey diagrams for cell type mapping visualization
   - Identification of orthologous gene pairs and cell type-specific marker genes
-- **Innovation**: Novel comparison of seahorse placental cells with mammalian placentas, revealing evolutionary conservation of placental functions
 
 #### `Cell_commu.ipynb` - Intercellular Communication Network Analysis
 - **Function**: Analysis of intercellular ligand-receptor interactions based on the CellPhoneDB algorithm
@@ -75,13 +74,11 @@ sh_code/
 - **Visualization**: Comprehensive display methods including network plots, heatmaps, and violin plots
 
 #### `Cross_species_Evolutionary_tree.ipynb` - Cross-species Evolutionary Phylogenetic Analysis
-- **Function**: Construction of cell type evolutionary trees for seahorse, Zostera marina seahorse, and Hongfu seahorse species
 - **Technical Features**:
   - Phylogenetic tree construction based on orthologous gene expression patterns
   - Ensemble clustering to enhance tree construction stability
   - Bootstrap support assessment
   - Identification of characteristic genes at each phylogenetic tree node
-- **Innovation**: First phylogenetic analysis of cell types within the seahorse taxonomic group
 
 ### 🎯 Specialized Analyses
 
@@ -130,39 +127,17 @@ sh_code/
   - Joint clustering analysis
   - Regulatory network inference
 
-## 📊 Key Research Findings
-
-### 🔍 Cell Type Identification
-- Identified **14 major cell types**, including:
-  - Trophoblast giant cell subtypes (TGC subtypes)
-  - Basal cells
-  - Decidual cells
-  - Endothelial cells
-  - Fibroblasts
-  - Immune cells
-
-### 🧬 Cross-species Comparison
-- Discovered **functional homology** between seahorse placental trophoblast cells and mammalian placentas
-- Identified conserved placental developmental regulatory genes and pathways
-- Revealed evolutionary relationships of placental structures across different species
-
-### 🔗 Intercellular Communication Networks
-- Constructed **intercellular communication maps** during development
-- Identified key signaling pathways and regulatory factors
-- Analyzed communication pattern changes across different developmental stages
-
 ## 🛠️ Technical Methods
 
 ### 📈 Bioinformatics Tools
-- **R packages**: Seurat, ArchR, Harmony, CellPhoneDB, ggtree
+- **R packages**: Seurat, ArchR, Harmony, CellPhoneDB, Circlize
 - **Python packages**: SAMap, scanpy, pandas, matplotlib
-- **Statistical methods**: Wilcoxon rank-sum test, correlation analysis, clustering analysis
+- **Statistical methods**: Wilcoxon rank-sum test, correlation analysis, clustering analysis,GSEA ...
 
 ### 🔬 Experimental Technologies
 - **scRNA-seq**: 10X Genomics Chromium platform
 - **scATAC-seq**: 10X Genomics single-cell ATAC sequencing
-- **Samples**: Multiple seahorse developmental stages (BP, HY, ZQ, etc.)
-
+- **Samples**: Multiple seahorse developmental stages 
 ## 📋 Usage Instructions
 
 ### Environment Setup
@@ -187,25 +162,24 @@ pip install scanpy samap pandas matplotlib seaborn
 If you use this code for research purposes, please cite the following paper:
 
 ```bibtex
-@article{seahorse_placenta_2024,
-  title={Single-cell multi-omics reveals molecular mechanisms of seahorse placental development},
+@article{
+  title={Cellular basis of sex-role reversal: male pregnancy in seahorses},
   author={[Authors]},
   journal={Nature Ecology & Evolution},
-  year={2024},
+  year={2025},
   doi={[DOI]}
 }
 ```
 
 ## 👥 Contributors
 
-- Primary Analysis: [Research Team]
-- Code Development: [Development Team]
-- Data Collection: [Experimental Team]
+- Code Development: Chen lab
+- Data Collection: Lin lab
 
 ## 📞 Contact Information
 
 For questions or suggestions, please contact us through:
-- Email: [contact@email.com]
+- Email: miaoyx1@shanghaitech.edu.cn
 - Issues: Please submit issues on GitHub
 
 ## 📄 License
