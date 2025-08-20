@@ -8,7 +8,7 @@
 ![R](https://img.shields.io/badge/Language-R-blue)
 ![Python](https://img.shields.io/badge/Language-Python-yellow)
 
-*Code of article：“Cellular basis of sex-role reversal: male pregnancy in seahorses” by Yali Liu, Han Jiang, Yuanxiang Miao, Luonan Chen** , Axel Meyer* , Qiang Lin* et al.
+*Code of article：“Cellular basis of sex-role reversal: male pregnancy in seahorses” by Yali Liu†,, Han Jiang†,, Yuanxiang Miao†,, Luonan Chen** , Axel Meyer* , Qiang Lin* et al.
 
 </div>
 
@@ -164,7 +164,7 @@ If you use this code for research purposes, please cite the following paper:
 ```bibtex
 @article{
   title={Cellular basis of sex-role reversal: male pregnancy in seahorses},
-  author={Yali Liu†,, Han Jiang†,, Yuanxiang Miao†,, Wenli Zhao, Ralf Schneider, Liduo Yin, Xinyue Yu, Haiyan Yu, Xuemei Lu, Enguang Bi, Luonan Chen*, Axel Meyer*, Qiang Lin*},
+  author={Yali Liu†,, Han Jiang†,, Yuanxiang Miao†, Wenli Zhao, Ralf Schneider, Liduo Yin, Xinyue Yu, Haiyan Yu, Xuemei Lu, Enguang Bi, Luonan Chen*, Axel Meyer*, Qiang Lin*},
   journal={Nature Ecology & Evolution},
   year={2025},
   doi={[DOI]}
