@@ -3,7 +3,7 @@ Code of article：“Cellular basis of sex-role reversal: male pregnancy in seah
 
 ![pic](https://github.com/miaoyx-SHTU/Cellular-basis-of-sex-role-reversal/blob/main/Image/fig1.png)
 
-# 🐴 Seahorse Placental Development Single-Cell Analysis
+# Seahorse Placental Development Single-Cell Analysis
 
 <div align="center">
 
@@ -17,13 +17,11 @@ Code of article：“Cellular basis of sex-role reversal: male pregnancy in seah
 
 </div>
 
-## 📖 研究概述 / Overview
+## 📖 Research Overview
 
-本研究通过单细胞RNA测序(scRNA-seq)和单细胞ATAC测序(scATAC-seq)技术，系统性地解析了海马(Seahorse)胎盘发育过程中的细胞类型多样性和基因调控网络。研究涵盖了多个发育时期的样本，并与人类和小鼠的胎盘发育进行了跨物种比较分析。
+This study systematically characterizes cell type diversity and gene regulatory networks during seahorse placental development using single-cell RNA sequencing (scRNA-seq) and single-cell assay for transposase-accessible chromatin sequencing (scATAC-seq). The research encompasses samples from multiple developmental timepoints and performs cross-species comparative analysis with human and mouse placental development to elucidate evolutionary conservation and divergence in placental biology.
 
-This study systematically characterizes cell type diversity and gene regulatory networks during seahorse placental development using single-cell RNA sequencing (scRNA-seq) and single-cell ATAC sequencing (scATAC-seq). The research includes multiple developmental timepoints and performs cross-species comparative analysis with human and mouse placental development.
-
-## 🗂️ 项目结构 / Project Structure
+## 🗂️ Project Structure
 
 ```
 sh_code/
@@ -33,132 +31,132 @@ sh_code/
 └── 📄 manuscript-NATECOLEVOL-25020487A.pdf  # Associated research paper
 ```
 
-## 📓 Notebooks 文件夹详细说明
+## 📓 Detailed Description of Notebooks Directory
 
-### 🔬 主要分析流程
+### 🔬 Primary Analysis Workflows
 
-#### `SCpipline.ipynb` - 单细胞RNA测序数据处理主流程
-- **功能**: 完整的scRNA-seq数据预处理、质量控制和细胞类型注释流程
-- **主要步骤**:
-  - 10X Genomics数据读取和Seurat对象创建
-  - 多批次数据整合 (BP1/BP2, ZQ1/ZQ2, HY1/HY2等发育时期)
-  - 基因注释转换（海马基因ID到基因名）
-  - 线粒体和核糖体基因比例计算
-  - Harmony批次效应校正
-  - UMAP/t-SNE降维可视化
-  - 聚类分析和标记基因识别
-- **输出**: 处理后的Seurat对象、质量控制图表、细胞类型注释结果
+#### `SCpipline.ipynb` - Single-cell RNA-seq Data Processing Pipeline
+- **Function**: Comprehensive scRNA-seq data preprocessing, quality control, and cell type annotation workflow
+- **Key Steps**:
+  - 10X Genomics data import and Seurat object creation
+  - Multi-batch data integration (developmental stages: BP1/BP2, ZQ1/ZQ2, HY1/HY2, etc.)
+  - Gene annotation conversion (seahorse gene IDs to gene symbols)
+  - Mitochondrial and ribosomal gene proportion calculation
+  - Harmony batch effect correction
+  - UMAP/t-SNE dimensionality reduction and visualization
+  - Clustering analysis and marker gene identification
+- **Output**: Processed Seurat objects, quality control plots, cell type annotation results
 
-#### `Run_SAMAP.ipynb` - 跨物种细胞类型比较分析
-- **功能**: 使用SAMap算法进行海马与人类、小鼠的跨物种细胞类型映射
-- **核心分析**:
-  - 海马-小鼠胎盘细胞类型对应关系分析
-  - 海马-人类胎盘细胞类型对应关系分析
-  - 生成Sankey图展示细胞类型映射结果
-  - 识别同源基因对和细胞类型特异性标记基因
-- **特色**: 创新性地将海马胎盘细胞与哺乳动物胎盘进行比较，揭示胎盘功能的进化保守性
+#### `Run_SAMAP.ipynb` - Cross-species Cell Type Comparative Analysis
+- **Function**: Cross-species cell type mapping between seahorse, human, and mouse using the SAMap algorithm
+- **Core Analysis**:
+  - Seahorse-mouse placental cell type correspondence analysis
+  - Seahorse-human placental cell type correspondence analysis
+  - Generation of Sankey diagrams for cell type mapping visualization
+  - Identification of orthologous gene pairs and cell type-specific marker genes
+- **Innovation**: Novel comparison of seahorse placental cells with mammalian placentas, revealing evolutionary conservation of placental functions
 
-#### `Cell_commu.ipynb` - 细胞间通讯网络分析
-- **功能**: 基于CellPhoneDB算法分析细胞间配体-受体相互作用
-- **分析内容**:
-  - 构建细胞类型间通讯网络
-  - 识别关键的配体-受体对
-  - 生成弦图(Chord plot)和Sankey图可视化
-  - 分析不同发育时期的通讯模式变化
-- **可视化**: 包含网络图、热图、小提琴图等多种展示方式
+#### `Cell_commu.ipynb` - Intercellular Communication Network Analysis
+- **Function**: Analysis of intercellular ligand-receptor interactions based on the CellPhoneDB algorithm
+- **Analysis Content**:
+  - Construction of intercellular communication networks between cell types
+  - Identification of key ligand-receptor pairs
+  - Generation of chord plots and Sankey diagrams for visualization
+  - Analysis of communication pattern changes across different developmental stages
+- **Visualization**: Comprehensive display methods including network plots, heatmaps, and violin plots
 
-#### `Cross_species_Evolutionary_tree.ipynb` - 跨物种进化系统发育分析
-- **功能**: 构建海马、薛氏海马、洪福海马的细胞类型进化树
-- **技术特点**:
-  - 基于同源基因的表达模式构建系统发育树
-  - 集成聚类(Ensemble clustering)提高树构建的稳定性
-  - Bootstrap支持度评估
-  - 识别系统发育树各节点的特征基因
-- **创新性**: 首次在海马类群中进行细胞类型的系统发育分析
+#### `Cross_species_Evolutionary_tree.ipynb` - Cross-species Evolutionary Phylogenetic Analysis
+- **Function**: Construction of cell type evolutionary trees for seahorse, Zostera marina seahorse, and Hongfu seahorse species
+- **Technical Features**:
+  - Phylogenetic tree construction based on orthologous gene expression patterns
+  - Ensemble clustering to enhance tree construction stability
+  - Bootstrap support assessment
+  - Identification of characteristic genes at each phylogenetic tree node
+- **Innovation**: First phylogenetic analysis of cell types within the seahorse taxonomic group
 
-### 🎯 专业化分析
+### 🎯 Specialized Analyses
 
-#### `DNB&chordplot.ipynb` - 动态网络生物标志物分析
-- **功能**: 识别发育过程中的关键调控网络和生物标志物
-- **方法**: 动态网络分析结合弦图可视化
+#### `DNB&chordplot.ipynb` - Dynamic Network Biomarker Analysis
+- **Function**: Identification of key regulatory networks and biomarkers during development
+- **Methods**: Dynamic network analysis combined with chord plot visualization
 
-#### `Enrich_for_SAMap.ipynb` - SAMap结果功能富集分析
-- **功能**: 对跨物种比较结果进行GO/KEGG功能富集分析
-- **输出**: 功能注释和通路富集结果
+#### `Enrich_for_SAMap.ipynb` - Functional Enrichment Analysis of SAMap Results
+- **Function**: GO/KEGG functional enrichment analysis of cross-species comparison results
+- **Output**: Functional annotations and pathway enrichment results
 
-#### `Raw_BPHYZQ.ipynb` - 原始数据探索性分析
-- **功能**: 初步的数据质量评估和探索性数据分析
-- **内容**: 基础统计、数据分布检查、初步可视化
+#### `Raw_BPHYZQ.ipynb` - Raw Data Exploratory Analysis
+- **Function**: Preliminary data quality assessment and exploratory data analysis
+- **Content**: Basic statistics, data distribution examination, and initial visualization
 
-## 🧬 R Code 文件夹详细说明
+## 🧬 Detailed Description of R Code Directory
 
-### 🔬 ATAC-seq分析流程
+### 🔬 ATAC-seq Analysis Workflow
 
-#### `ATAC_code0.R` - ATAC-seq数据预处理和注释
-- **主要功能**:
-  - 基于ArchR框架的scATAC-seq数据处理
-  - 海马基因组注释文件构建
-  - Peak calling和质量控制
-  - 与scRNA-seq数据整合进行细胞类型注释
-- **技术细节**:
-  - 自定义海马参考基因组(Seahorse.bs.genome)
-  - Doublet检测和过滤
-  - 迭代LSI降维和Harmony批次校正
-  - 基因得分矩阵计算
+#### `ATAC_code0.R` - ATAC-seq Data Preprocessing and Annotation
+- **Primary Functions**:
+  - scATAC-seq data processing based on the ArchR framework
+  - Construction of seahorse genome annotation files
+  - Peak calling and quality control
+  - Integration with scRNA-seq data for cell type annotation
+- **Technical Details**:
+  - Custom seahorse reference genome (Seahorse.bs.genome)
+  - Doublet detection and filtering
+  - Iterative LSI dimensionality reduction and Harmony batch correction
+  - Gene score matrix computation
 
-#### `ATAC_code1.R` - 进阶ATAC-seq分析
-- **核心分析**:
-  - Peak calling和motif富集分析
-  - 转录因子结合位点预测
-  - 拟时间轨迹分析
-  - ARE (Androgen Response Element) motif特异性分析
-- **特色功能**:
-  - 鉴定发育轨迹中的关键调控因子
-  - 分析雄激素响应元件的作用模式
+#### `ATAC_code1.R` - Advanced ATAC-seq Analysis
+- **Core Analysis**:
+  - Peak calling and motif enrichment analysis
+  - Transcription factor binding site prediction
+  - Pseudotime trajectory analysis
+  - ARE (Androgen Response Element) motif-specific analysis
+- **Special Features**:
+  - Identification of key regulatory factors in developmental trajectories
+  - Analysis of androgen response element action patterns
 
-#### `seahorse.R` - 整合分析脚本
-- **功能**: 整合scRNA-seq和scATAC-seq数据的综合分析
-- **包含**:
-  - 多组学数据整合
-  - 联合聚类分析
-  - 调控网络推断
+#### `seahorse.R` - Integrated Analysis Script
+- **Function**: Comprehensive analysis integrating scRNA-seq and scATAC-seq data
+- **Includes**:
+  - Multi-omics data integration
+  - Joint clustering analysis
+  - Regulatory network inference
 
-## 📊 主要研究发现
+## 📊 Key Research Findings
 
-### 🔍 细胞类型鉴定
-- 鉴定出**14个主要细胞类型**，包括：
-  - 滋养层细胞亚型 (TGC subtypes)
-  - 基底细胞 (Basal cells) 
-  - 蜕膜细胞 (Decidual cells)
-  - 内皮细胞 (Endothelial cells)
-  - 成纤维细胞 (Fibroblasts)
-  - 免疫细胞 (Immune cells)
+### 🔍 Cell Type Identification
+- Identified **14 major cell types**, including:
+  - Trophoblast giant cell subtypes (TGC subtypes)
+  - Basal cells
+  - Decidual cells
+  - Endothelial cells
+  - Fibroblasts
+  - Immune cells
 
-### 🧬 跨物种比较
-- 发现海马胎盘滋养层细胞与哺乳动物胎盘的**功能同源性**
-- 识别出保守的胎盘发育调控基因和通路
-- 揭示了不同物种胎盘结构的进化关系
+### 🧬 Cross-species Comparison
+- Discovered **functional homology** between seahorse placental trophoblast cells and mammalian placentas
+- Identified conserved placental developmental regulatory genes and pathways
+- Revealed evolutionary relationships of placental structures across different species
 
-### 🔗 细胞通讯网络
-- 构建了发育过程中的**细胞间通讯图谱**
-- 识别关键的信号通路和调控因子
-- 分析了不同发育阶段的通讯模式变化
+### 🔗 Intercellular Communication Networks
+- Constructed **intercellular communication maps** during development
+- Identified key signaling pathways and regulatory factors
+- Analyzed communication pattern changes across different developmental stages
 
-## 🛠️ 技术方法
+## 🛠️ Technical Methods
 
-### 📈 生物信息学工具
+### 📈 Bioinformatics Tools
 - **R packages**: Seurat, ArchR, Harmony, CellPhoneDB, ggtree
 - **Python packages**: SAMap, scanpy, pandas, matplotlib
-- **统计方法**: Wilcoxon检验, 相关性分析, 聚类分析
+- **Statistical methods**: Wilcoxon rank-sum test, correlation analysis, clustering analysis
 
-### 🔬 实验技术
-- **scRNA-seq**: 10X Genomics Chromium平台
-- **scATAC-seq**: 10X Genomics单细胞ATAC测序
-- **样本**: 多个海马发育时期 (BP, HY, ZQ等)
+### 🔬 Experimental Technologies
+- **scRNA-seq**: 10X Genomics Chromium platform
+- **scATAC-seq**: 10X Genomics single-cell ATAC sequencing
+- **Samples**: Multiple seahorse developmental stages (BP, HY, ZQ, etc.)
 
-## 📋 使用说明
+## 📋 Usage Instructions
 
-### 环境配置
+### Environment Setup
 ```r
 # R dependencies
 install.packages(c("Seurat", "harmony", "dplyr", "ggplot2"))
@@ -168,16 +166,16 @@ BiocManager::install(c("ArchR", "GenomicRanges"))
 pip install scanpy samap pandas matplotlib seaborn
 ```
 
-### 运行流程
-1. **数据预处理**: 运行 `SCpipline.ipynb`
-2. **跨物种分析**: 运行 `Run_SAMAP.ipynb` 
-3. **细胞通讯**: 运行 `Cell_commu.ipynb`
-4. **进化分析**: 运行 `Cross_species_Evolutionary_tree.ipynb`
-5. **ATAC分析**: 运行 `ATAC_code0.R` 和 `ATAC_code1.R`
+### Analysis Workflow
+1. **Data Preprocessing**: Run `SCpipline.ipynb`
+2. **Cross-species Analysis**: Run `Run_SAMAP.ipynb` 
+3. **Cell Communication**: Run `Cell_commu.ipynb`
+4. **Evolutionary Analysis**: Run `Cross_species_Evolutionary_tree.ipynb`
+5. **ATAC Analysis**: Run `ATAC_code0.R` and `ATAC_code1.R`
 
-## 📚 引用信息
+## 📚 Citation Information
 
-如果您使用本代码进行研究，请引用以下论文：
+If you use this code for research purposes, please cite the following paper:
 
 ```bibtex
 @article{seahorse_placenta_2024,
@@ -189,27 +187,27 @@ pip install scanpy samap pandas matplotlib seaborn
 }
 ```
 
-## 👥 贡献者
+## 👥 Contributors
 
-- 主要分析: [研究团队]
-- 代码开发: [开发团队]
-- 数据收集: [实验团队]
+- Primary Analysis: [Research Team]
+- Code Development: [Development Team]
+- Data Collection: [Experimental Team]
 
-## 📞 联系方式
+## 📞 Contact Information
 
-如有问题或建议，请通过以下方式联系：
+For questions or suggestions, please contact us through:
 - Email: [contact@email.com]
-- Issues: 请在GitHub上提交issue
+- Issues: Please submit issues on GitHub
 
-## 📄 许可证
+## 📄 License
 
-本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-**🌟 如果这个项目对您有帮助，请给我们一个Star！**
+**🌟 If this project is helpful to you, please give us a Star!**
 
 ![GitHub stars](https://img.shields.io/github/stars/username/repo?style=social)
 
