@@ -164,7 +164,7 @@ If you use this code for research purposes, please cite the following paper:
 ```bibtex
 @article{
   title={Cellular basis of sex-role reversal: male pregnancy in seahorses},
-  author={Yali Liu, Han Jiang, Yuanxiang Miao4, Wenli Zhao, Ralf Schneider, Liduo Yin, Xinyue Yu, Haiyan Yu, Xuemei Lu, Enguang Bi, Luonan Chen*, Axel Meyer*, Qiang Lin*},
+  author={Yali Liu†,, Han Jiang†,, Yuanxiang Miao†,, Wenli Zhao, Ralf Schneider, Liduo Yin, Xinyue Yu, Haiyan Yu, Xuemei Lu, Enguang Bi, Luonan Chen*, Axel Meyer*, Qiang Lin*},
   journal={Nature Ecology & Evolution},
   year={2025},
   doi={[DOI]}
