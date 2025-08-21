@@ -42,8 +42,6 @@ sh_code/
 
 ## 📓 Detailed Description of Notebooks Directory
 
-### 🔬 Primary Analysis Workflows
-
 #### `SCpipline.ipynb` - Single-cell RNA-seq Data Processing Pipeline
 - **Function**: Comprehensive scRNA-seq data preprocessing, quality control, and cell type annotation workflow
 - **Key Steps**:
@@ -80,8 +78,6 @@ sh_code/
   - Bootstrap support assessment
   - Identification of characteristic genes at each phylogenetic tree node
 
-### 🎯 Specialized Analyses
-
 #### `DNB&chordplot.ipynb` - Dynamic Network Biomarker Analysis
 - **Function**: Identification of key regulatory networks and biomarkers during development
 - **Methods**: Dynamic network analysis combined with chord plot visualization
@@ -90,13 +86,7 @@ sh_code/
 - **Function**: GO/KEGG functional enrichment analysis of cross-species comparison results
 - **Output**: Functional annotations and pathway enrichment results
 
-#### `Raw_BPHYZQ.ipynb` - Raw Data Exploratory Analysis
-- **Function**: Preliminary data quality assessment and exploratory data analysis
-- **Content**: Basic statistics, data distribution examination, and initial visualization
-
 ## 🧬 Detailed Description of R Code Directory
-
-### 🔬 ATAC-seq Analysis Workflow
 
 #### `ATAC_code0.R` - ATAC-seq Data Preprocessing and Annotation
 - **Primary Functions**:
@@ -149,13 +139,6 @@ BiocManager::install(c("ArchR", "GenomicRanges"))
 # Python dependencies  
 pip install scanpy samap pandas matplotlib seaborn
 ```
-
-### Analysis Workflow
-1. **Data Preprocessing**: Run `SCpipline.ipynb`
-2. **Cross-species Analysis**: Run `Run_SAMAP.ipynb` 
-3. **Cell Communication**: Run `Cell_commu.ipynb`
-4. **Evolutionary Analysis**: Run `Cross_species_Evolutionary_tree.ipynb`
-5. **ATAC Analysis**: Run `ATAC_code0.R` and `ATAC_code1.R`
 
 ## 📚 Citation Information
 
