@@ -40,9 +40,9 @@ sh_code/
 └── 📄 manuscript-NATECOLEVOL-25020487A.pdf  # Associated research paper
 ```
 
-## 📓 Detailed Description of Notebooks Directory
+## 📓 Detailed Description of R Directory
 
-#### `SCpipline.ipynb` - Single-cell RNA-seq Data Processing Pipeline
+#### `SCpipline.r` - Single-cell RNA-seq Data Processing Pipeline
 - **Function**: Comprehensive scRNA-seq data preprocessing, quality control, and cell type annotation workflow
 - **Key Steps**:
   - 10X Genomics data import and Seurat object creation
@@ -54,15 +54,7 @@ sh_code/
   - Clustering analysis and marker gene identification
 - **Output**: Processed Seurat objects, quality control plots, cell type annotation results
 
-#### `Run_SAMAP.ipynb` - Cross-species Cell Type Comparative Analysis
-- **Function**: Cross-species cell type mapping between seahorse, human, and mouse using the SAMap algorithm
-- **Core Analysis**:
-  - Seahorse-mouse placental cell type correspondence analysis
-  - Seahorse-human placental cell type correspondence analysis
-  - Generation of Sankey diagrams for cell type mapping visualization
-  - Identification of orthologous gene pairs and cell type-specific marker genes
-
-#### `Cell_commu.ipynb` - Intercellular Communication Network Analysis
+#### `Cell_commu.r` - Intercellular Communication Network Analysis
 - **Function**: Analysis of intercellular ligand-receptor interactions based on the CellPhoneDB algorithm
 - **Analysis Content**:
   - Construction of intercellular communication networks between cell types
@@ -71,22 +63,20 @@ sh_code/
   - Analysis of communication pattern changes across different developmental stages
 - **Visualization**: Comprehensive display methods including network plots, heatmaps, and violin plots
 
-#### `Cross_species_Evolutionary_tree.ipynb` - Cross-species Evolutionary Phylogenetic Analysis
+#### `Cross_species_Evolutionary_tree.r` - Cross-species Evolutionary Phylogenetic Analysis
 - **Technical Features**:
   - Phylogenetic tree construction based on orthologous gene expression patterns
   - Ensemble clustering to enhance tree construction stability
   - Bootstrap support assessment
   - Identification of characteristic genes at each phylogenetic tree node
 
-#### `DNB&chordplot.ipynb` - Dynamic Network Biomarker Analysis
+#### `DNB&chordplot.r` - Dynamic Network Biomarker Analysis
 - **Function**: Identification of key regulatory networks and biomarkers during development
 - **Methods**: Dynamic network analysis combined with chord plot visualization
 
-#### `Enrich_for_SAMap.ipynb` - Functional Enrichment Analysis of SAMap Results
+#### `Enrich_for_SAMap.r` - Functional Enrichment Analysis of SAMap Results
 - **Function**: GO/KEGG functional enrichment analysis of cross-species comparison results
 - **Output**: Functional annotations and pathway enrichment results
-
-## 🧬 Detailed Description of R Code Directory
 
 #### `ATAC_code0.R` - ATAC-seq Data Preprocessing and Annotation
 - **Primary Functions**:
@@ -116,6 +106,17 @@ sh_code/
   - Multi-omics data integration
   - Joint clustering analysis
   - Regulatory network inference
+
+## 🧬 Detailed Description of Python Code Directory
+
+
+#### `Run_SAMAP.py` - Cross-species Cell Type Comparative Analysis
+- **Function**: Cross-species cell type mapping between seahorse, human, and mouse using the SAMap algorithm
+- **Core Analysis**:
+  - Seahorse-mouse placental cell type correspondence analysis
+  - Seahorse-human placental cell type correspondence analysis
+  - Generation of Sankey diagrams for cell type mapping visualization
+  - Identification of orthologous gene pairs and cell type-specific marker genes
 
 ## 🛠️ Technical Methods
 
